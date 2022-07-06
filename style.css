@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+}
+.banner{
+    background-image:linear-gradient(rgba(2, 0, 0, 0.5),rgba(5, 5, 5, 0.495) ),url(image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.content{
+    padding-top: 40vh;
+    text-align: center;
+}
+span{
+    color: aliceblue;
+    font-size:50px;
+}
+p{
+    color: beige;
+    font-size:30px;
+    padding: 30px;
+}
+a{  
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
