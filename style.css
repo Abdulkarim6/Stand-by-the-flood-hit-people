@@ -10,7 +10,7 @@ section{
     background-image:linear-gradient(rgba(2, 0, 0, 0.5),rgba(5, 5, 5, 0.495) ),url(image/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
+
     height:100vh;
 }
 .content{
@@ -24,7 +24,7 @@ span{
 p{
     color:#E2E8E4;
     font-size:30px;
-    padding: 30px ;
+    padding: 30px 0px;
 }
 a{  
     text-decoration: none;
@@ -34,25 +34,26 @@ a{
 }
 .donation{
     background-color: rgb(164, 172, 169);
-    width: 100%;
     padding: 40px;
 
 }
-.content{
+#content2{
     text-align: center;
 }
 .flex{
+    display: flex;
+}
+#donate-bill{
     background-color: aqua;
     margin: 5px 200px;
     box-shadow: 20px 20px 40px rgb(128, 178, 190);
     border-radius: 30px;
-    display: flex;
     justify-content: space-between;
     padding:15px 60px;
 }
 .flex h2{
     background-color: rgb(226, 216, 216);
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
 }
 .style{
@@ -60,3 +61,18 @@ a{
     padding: 3px;
 
 }
+.our-plan{
+    background-color: rgb(130, 144, 170);
+}
+.service-topic{
+    text-align: center;
+}
+#service{
+    justify-content: space-between;
+}
+.box{
+    background-color: cornflowerblue;
+    margin: 0px 10px;
+    padding: 20px 50px;
+}
+
