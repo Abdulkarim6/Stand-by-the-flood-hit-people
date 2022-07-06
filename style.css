@@ -86,7 +86,7 @@ p{
     margin: 20px;
 }
 .from-img{
-    background-image: linear-gradient(rgba(153, 142, 142, 0.9),rgba(102, 92, 92, 0.945)),url(image/join-img.jpg);
+    background-image:url(image/join-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
