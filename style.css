@@ -8,6 +8,7 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.945) ),url(image/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height:100vh;
 }
 .content{
@@ -85,10 +86,10 @@ p{
     margin: 20px;
 }
 .from-img{
-    background-image: linear-gradient(rgba(97, 93, 93, 0.5),rgba(7, 2, 2, 0.495) ),url(image/join-img.jpg);
+    background-image: linear-gradient(rgba(153, 142, 142, 0.9),rgba(102, 92, 92, 0.945)),url(image/join-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   background-position: center;
+    background-position: center;
     height:100%;
 }
 .from{
