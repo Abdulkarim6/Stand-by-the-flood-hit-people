@@ -26,7 +26,7 @@ p{
     font-size:30px;
     padding: 30px 0px;
 }
-a{  
+.donate{  
     text-decoration: none;
     background-image: linear-gradient(orange,red);
     border-radius: 10px;
@@ -51,18 +51,19 @@ a{
     justify-content: space-between;
     padding:15px 60px;
 }
-.flex h2{
-    background-color: rgb(226, 216, 216);
-    padding: 8px;
-    border-radius: 5px;
+.flex button{
+    height: 70px;
+     width: 120px;
+     font-size: 20px;
 }
-.style{
-    border: 2px solid rgb(233, 137, 13);
-    padding: 3px;
+#active{
+    background-color: rgb(60, 151, 60);
+    border: 3px solid rgb(245, 241, 11);
 
 }
 .our-plan{
     background-color: rgb(130, 144, 170);
+    padding: 20px;
 }
 .service-topic{
     text-align: center;
@@ -74,18 +75,29 @@ a{
     background-color: cornflowerblue;
     margin: 0px 20px;
     padding: 20px 50px;
+    box-shadow: 5px 5px 15px rgb(17, 218, 245);;
 }
 .update{
     background-color: lightslategrey;
     padding: 25px;
 }
 .input-type{
+         display: flex;
+         justify-content: center;
          background-color: darkseagreen;
          width:400px;
          margin: auto;
-         padding: 30px 10px 20px 40px;
-         align-items: center;
+         padding: 40px;
+         border-radius: 10px;
+         
+         
 }
+.input-type input,button{
+    width: 350px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
 .bg-color{
     background-color: rgb(10, 10, 10);
 }
