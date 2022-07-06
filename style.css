@@ -77,6 +77,72 @@ p{
     padding: 20px 35px;
     box-shadow: 5px 5px 15px rgb(17, 218, 245);;
 }
+.fuii-width{
+    width: 100%;
+    
+}
+.half-width-section{
+    width: 50%;
+    margin: 20px;
+}
+.from-img{
+    background-image: linear-gradient(rgba(97, 93, 93, 0.5),rgba(7, 2, 2, 0.495) ),url(image/join-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+    height:100vh;
+}
+.public-ad{
+    text-align: center;
+    padding: 10px;
+}
+.from{
+    background-color: darkgrey;
+    border-radius: 5px solid;
+}
+label{
+    padding: 10px 10px;
+}
+.type{
+    margin: 10px;
+}
+input[type=text],select{
+    width: 100%;
+    display: inline-block;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: red;
+    width: 100%;
+    display: inline-block;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin: 15px auto;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .update{
     background-color: lightslategrey;
     padding: 25px;
@@ -92,7 +158,7 @@ p{
          
          
 }
-input,.input-type input,button{
+#content2 input,.input-type input,button{
     width: 350px;
     font-size: 20px;
     border-radius: 5px;
