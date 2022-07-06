@@ -3,14 +3,11 @@
     padding:0;
     font-family:'Roboto', sans-serif;
 }
-section{
-    margin-bottom: 20px;
-}
+
 .banner{
     background-image:linear-gradient(rgba(2, 0, 0, 0.5),rgba(5, 5, 5, 0.495) ),url(image/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     height:100vh;
 }
 .content{
@@ -27,6 +24,7 @@ p{
     padding: 30px 0px;
 }
 .donate{  
+    cursor: pointer;
     text-decoration: none;
     background-image: linear-gradient(orange,red);
     border-radius: 10px;
@@ -35,9 +33,8 @@ p{
 .donation{
     background-color: rgb(164, 172, 169);
     padding: 40px;
-
 }
-#content2{
+#content2,.service-topic{
     text-align: center;
 }
 .flex{
@@ -51,22 +48,21 @@ p{
     justify-content: space-between;
     padding:15px 60px;
 }
-.flex button{
-    height: 70px;
+ .flex button{
+     cursor: pointer;
+     height: 70px;
      width: 120px;
      font-size: 20px;
+     border: none;
+     border-radius:5px;
 }
 #active{
     background-color: rgb(60, 151, 60);
     border: 3px solid rgb(245, 241, 11);
-
 }
 .our-plan{
     background-color: rgb(130, 144, 170);
     padding: 20px;
-}
-.service-topic{
-    text-align: center;
 }
 #service{
     justify-content: space-between;
@@ -79,7 +75,6 @@ p{
 }
 .fuii-width{
     width: 100%;
-    
 }
 .half-width-section{
     width: 50%;
@@ -92,13 +87,13 @@ p{
    background-position: center;
     height:100vh;
 }
-.public-ad{
-    text-align: center;
-    padding: 10px;
-}
 .from{
     background-color: darkgrey;
     border-radius: 5px solid;
+}
+.public-ad{
+    text-align: center;
+    padding: 10px;
 }
 label{
     padding: 10px 10px;
@@ -112,37 +107,15 @@ input[type=text],select{
     padding: 15px 15px;
     box-sizing: border-box;
 }
-input[type=submit]{
+.type button{
     background-color: red;
     width: 100%;
     display: inline-block;
     padding: 15px 15px;
+    border: 2px solid;
     box-sizing: border-box;
     margin: 15px auto;
 }   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .update{
     background-color: lightslategrey;
     padding: 25px;
@@ -155,16 +128,13 @@ input[type=submit]{
          margin: auto;
          padding: 40px;
          border-radius: 10px;
-         
-         
 }
-#content2 input,.input-type input,button{
+#content2 input,.input-type input{
     width: 350px;
     font-size: 20px;
     border-radius: 5px;
     padding: 15px;
 }
-
-.bg-color{
+.footer-color{
     background-color: rgb(10, 10, 10);
 }
