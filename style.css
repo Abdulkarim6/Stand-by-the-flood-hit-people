@@ -5,22 +5,24 @@
 }
 
 .banner{
-    background-image:linear-gradient(rgba(2, 0, 0, 0.5),rgba(5, 5, 5, 0.495) ),url(image/banner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.945) ),url(image/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
 }
 .content{
-    padding-top: 30vh;
+    padding-top: 20vh;
     text-align: center;
 }
+.font-color{
+    color: white;
+    font-size:30px
+}
 span{
-    color: aliceblue;
-    font-size:50px;
+    font-size:30px;
 }
 p{
-    color:#E2E8E4;
-    font-size:30px;
+    font-size:18px;
     padding: 30px 0px;
 }
 .donate{  
@@ -31,7 +33,6 @@ p{
     padding: 15px 20px;
 }
 .donation{
-    background-color: rgb(164, 172, 169);
     padding: 40px;
 }
 #content2,.service-topic{
@@ -60,8 +61,11 @@ p{
     background-color: rgb(60, 151, 60);
     border: 3px solid rgb(245, 241, 11);
 }
+.extra-money{
+    text-align: center;
+    margin: 10px 0px;
+}
 .our-plan{
-    background-color: rgb(130, 144, 170);
     padding: 20px;
 }
 #service{
@@ -85,7 +89,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
    background-position: center;
-    height:100vh;
+    height:100%;
 }
 .from{
     background-color: darkgrey;
@@ -117,7 +121,6 @@ input[type=text],select{
     margin: 15px auto;
 }   
 .update{
-    background-color: lightslategrey;
     padding: 25px;
 }
 .input-type{
@@ -137,4 +140,6 @@ input[type=text],select{
 }
 .footer-color{
     background-color: rgb(10, 10, 10);
+    padding-top: 20px;
+    color: #E2E8E4;
 }
